@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "diagnostics": true,
+        "sourceMap": true,
+        "outDir": "dist/js",
+        "noImplicitAny": true,
+        "types": ["node", "mocha"]
+    },
+    "exclude": [
+        "node_modules",
+        "typings/globals",
+        "typings/modules",
+        "dist",
+        "tmp"
+    ]
+}
